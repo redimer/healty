@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Healty</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Add custom CSS here -->
+    <link href="css/sb-admin.css" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <!-- Page Specific CSS -->
+     <link rel="stylesheet" href="css/xeditable.css">
+
+
+  </head>
+
+  <body>
+ 	<!-- background image
+  		<div id="bg">
+  		<img src="img/back-run.jpg" alt="">
+	</div>-->
+  
+
+    <div id="wrapper">
+
+      <!-- Sidebar -->
+      <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" >
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse" >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+         
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <div class="top-logo">
+        	<center>
+        		<img src="img/logo.png" alt="logo-img">
+        	</center>
+        	
+        </div>
+          <ul class="nav navbar-nav side-nav">
+          		<li class="menu-item-img">
+                <a href="profile.html">                                              
+                      <img src="img/ssm_big2.png" style="margin: -15px 0 0 -15px; padding: 0 0 0 0;" alt="profiel-img">
+                </a>
+              </li>
+              	
+              <li class="menu-item-profile">	
+              <center>
+	             <div id="donut-slider1" class="donut-slider">		  		
+		    		<div class="value"></div>		   
+		  		</div> 
+		  		<p class="donut-text">Avklarat</p>
+ 				</center>
+           		</li>
+                
+              
+					
+			
+
+              <li class="active">
+                <a href="index.html">
+                  <div class="menu-item">    
+                  	<center>                
+                      <i class="fa fa-dashboard fa-fw fa-4x"></i>
+                      <p class="announcement-text">Dashboard</p>                                  
+                      </center>
+                  </div>
+                </a>
+              </li>
+            
+              <li>
+                <a href="index.html">
+                  <div class="menu-item">                    
+                  <center>   
+                      <i class="fa fa-flag-checkered fa-4x"></i>
+                      <p class="announcement-text">Aktiviteter</p>                                  
+                      </center>
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a href="index.html">
+                  <div class="menu-item">                    
+                  <center>   
+                      <i class="fa fa-user fa-fw fa-4x"></i>
+                      <p class="announcement-text">Medarbetare</p>                                  
+                      </center>
+                  </div>
+                </a>
+              </li>
+
+            
+            
+            
+            <!-- <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-caret-square-o-down"></i> Dropdown <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Dropdown Item</a></li>
+                <li><a href="#">Another Item</a></li>
+                <li><a href="#">Third Item</a></li>
+                <li><a href="#">Last Item</a></li>
+              </ul>
+            </li> -->
+            
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right navbar-user" >
+            
+            <li class="dropdown user-dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Samir Smajic <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#"><i class="fa fa-user"></i> Profile</a></li>
+                <li class="divider"></li>
+                <li><a href="#"><i class="fa fa-power-off"></i> Log Out</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </nav>
+
+      <div id="page-wrapper">
+
+    
+      
+      
+        <h1>Samir Smajic</h1>
+        <div class="row">
+          <div class="col-md-2">
+            <img src="img/ssm_big2.png" width="150" height="150" class="img-circle profile-img">
+          </div>
+          <div class="col-md-4">
+            <div class="form-group">
+              <label class="control-label">F&ouml;rnamn</label>
+           
+              <div ng-controller="TextSimpleCtrl">
+  <a href="#" editable-text="user.name">{{ user.name || 'empty' }}</a>
+</div>
+            </div>
+            <div class="form-group">
+              <div class="controls">
+                <select class="form-control">
+                  <option>-V&auml;lj k&ouml;n-</option>
+                  <option>Man</option>
+                  <option>Kvinna</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <label class="control-label">Efternamn</label>
+            <input type="text" class="form-control">
+          </div>
+       
+      
+    
+
+          
+      </div><!-- /#page-wrapper -->
+
+    </div><!-- /#wrapper -->
+
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+
+    <!-- Page Specific Plugins -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+    <script src="http://cdn.oesmith.co.uk/morris-0.4.3.min.js"></script>
+    <script src="js/morris/chart-data-morris.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/tablesorter/jquery.tablesorter.js"></script>
+    <script src="js/donutslider/donutslider.js"></script>
+    <script src="js/tablesorter/tables.js"></script>
+    <script src="js/xeditable.min.js"></script>
+
+  </body>
+</html>

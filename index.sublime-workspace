@@ -1,0 +1,450 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"s",
+				"stringify"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"ge",
+				"general"
+			],
+			[
+				"helpdeskstat",
+				"helpdeskstatics"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"max",
+				"maxAll"
+			],
+			[
+				"busi",
+				"businessfunnel"
+			],
+			[
+				"val",
+				"value"
+			],
+			[
+				"o",
+				"observableArray"
+			],
+			[
+				"st",
+				"stringify"
+			],
+			[
+				"bus",
+				"businessfunnel"
+			],
+			[
+				"valu",
+				"value"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"c",
+				"currency"
+			],
+			[
+				"text-",
+				"text-indent"
+			],
+			[
+				"salesfun",
+				"salesfunnel"
+			],
+			[
+				"ima",
+				"background-image"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"vie",
+				"viewModel"
+			],
+			[
+				"file",
+				"filename"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/Hosting.Lundalogik/Actionpads/apps/businessfunnel/app.html",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver1010.LIME Demo/Actionpads/index.html",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver1010.LIME Demo/Actionpads/apps/businessfunnel/app.html",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/hosting.Lundalogik/Actionpads/index.html",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/Hosting.Lundalogik/Actionpads/apps/businessfunnel/app.js",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/hosting.Lundalogik/Actionpads/apps/businessfunnel/app.html",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/cosmo.LIME Recruit/Actionpads/apps/infotile/app.css",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/cosmo.LIME Recruit/Actionpads/apps/infotile/app.js",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/cosmo.LIME Recruit/Actionpads/lbs.html",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/cosmo.LIME Recruit/Actionpads/_config.js",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/cosmo.LIME Recruit/Actionpads/index.html",
+		"/C/Users/ssm/Desktop/v.1.2/FormEasyToPro.frm",
+		"/F/Konsult/LIME Pro/Migration_EasyToPro/v.1.2/FormEasyToPro.frm",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver109.lime basic v4/Actionpads/helpdesk.html",
+		"/C/Users/ssm/Documents/GitHub/LimeBootstrapBaseActionpads/todo.html",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver109.lime basic v4/Actionpads/todo.html",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver109.lime basic v4/Actionpads/company.html",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver109.lime basic v4/Actionpads/business.html",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver109.lime basic v4/Actionpads/person.html",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver109.lime basic v4/Actionpads/system/css/lime.css",
+		"/F/Utveckling/LIME Pro/Framtiden/Case 01 - Entra/csp_afterupdate.sql",
+		"/F/Utveckling/LIME Pro/Framtiden/Case 01 - Entra/[csp_afterupdate_history].sql",
+		"/C/Users/ssm/AppData/Local/Temp/Rar$DRa0.843/csp_afterupdate.sql",
+		"/C/Users/ssm/AppData/Local/Temp/Rar$DRa0.843/csp_afterupdate_document.sql",
+		"/C/Users/ssm/AppData/Local/Temp/Rar$DRa0.843/csp_beforeupdate.sql",
+		"/C/Users/ssm/AppData/Local/Temp/Rar$DRa0.843/[csp_afterupdate_helpdesk].sql",
+		"/C/Users/ssm/AppData/Local/Temp/Rar$DRa0.843/[csp_afterupdate_history].sql",
+		"/C/Users/ssm/AppData/Local/Temp/Rar$DRa0.843/[csp_afterupdate_person].sql",
+		"/C/Users/ssm/AppData/Local/Temp/Rar$DRa0.843/[csp_afterupdate_workorder].sql",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver1010.Lime Basic v3/Actionpads/actionpad_index.htm",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver109.lime basic v4/Actionpads/system/view/wrapperActionpad.html",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver109.lime basic v4/Actionpads/lbs.html",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver109.lime basic v4/Actionpads/_config.js",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver109.lime basic v4/Actionpads/index.html",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver109.lime basic v4/Actionpads/system/js/lbs.js",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver1010.Lime Basic v3/Actionpads/style/actionpad_index.css",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver109.lime basic v4/Actionpads/system/js/lbs.bindings.js",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver109.lime basic v4/Actionpads/whiteboard.html",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver109.lime basic v4/Actionpads/campaign.html",
+		"/C/Users/ssm/Downloads/LimeBootstrap-master/lbs.html",
+		"/C/Users/ssm/Desktop/Bjurfors",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver1010.LIME Demo/Actionpads/apps/campaignparticipants/app.html",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver1010.LIME Demo/Actionpads/apps/campaignparticipants/app.js",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver1010.LIME Demo/Actionpads/apps/businessfunnel/app.js",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver1010.LIME Demo/Actionpads/campaign.html",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver1010.LIME Demo/Actionpads/apps/creditinfo/app.js",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver1010.LIME Demo/Actionpads/apps/creditinfo/app.html",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver1010.LIME Demo/Actionpads/company.html",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver1010.LIME Demo/Actionpads/lbs.html",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver1010.LIME Demo/Actionpads/apps/solrSearch/app.html",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver1010.LIME Demo/Actionpads/apps/test/app.html",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver1010.LIME Demo/Actionpads/apps/helpdeskstatics/app.js",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver1010.LIME Demo/Actionpads/person.html",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver1010.LIME Demo/Actionpads/helpdesk.html",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver1010.LIME Demo/Actionpads/system/css/bootstrap.min.css",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver1010.LIME Demo/Actionpads/system/js/lbs.js",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver1010.LIME Demo/Actionpads/system/css/lime.css",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver1010.LIME Demo/Actionpads/apps/creditinfo/app.css",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver1010.LIME Demo/Actionpads/apps/checklist/app.html",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver1010.LIME Demo/Actionpads/apps/checklist/app.js",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver1010.LIME Demo/Actionpads/todo.html",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver1010.LIME Demo/Actionpads/apps/businessfunnel/app.css",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver1010.Limedemo/Actionpads/index.html",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver1010.Limedemo/Actionpads/apps/helpdeskstatics/app.js",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver1010.Limedemo/Actionpads/apps/businessfunnel/app.html",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver1010.Limedemo/Actionpads/apps/helpdeskstatics/app.css",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver1010.Limedemo/Actionpads/apps/helpdeskstatics/app.html",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver1010.Limedemo/Actionpads/apps/businessfunnel/app.css",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver1010.Limedemo/Actionpads/apps/businessfunnel/app.js",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver1010.Limedemo/Actionpads/apps/checklist/app.html",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver1010.Limedemo/Actionpads/apps/checklist/app.js",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver1010.Limedemo/Actionpads/helpdesk.html",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver1010.Limedemo/Actionpads/lbs.html",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver1010.LIME Demo/Actionpads/business.html",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver1010.Limedemo/Actionpads/apps/helpdeskstatics/app_new.html",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver1010.Limedemo/Actionpads/apps/d3_charts_donut/app.html",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver1010.Limedemo/Actionpads/company.html",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver1010.Limedemo/Actionpads/business.html",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver1010.Limedemo/Actionpads/README.md",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver1010.Limedemo/Actionpads/apps/businessfunnel/README.md",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver109.lime basic v4/Actionpads/apps/checklist/app.html",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver109.lime basic v4/Actionpads/apps/checklist/checklist.css",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver109.lime basic v4/Actionpads/apps/textfileimport/app.html",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver109.lime basic v4/Actionpads/system/css/bootstrap.min.css",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver109.lime basic v4/Actionpads/system/js/lbs.log.js",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver1010.Limedemo/Actionpads/apps/limebi/limebi_index.html",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver1010.Limedemo/Actionpads/apps/limebi/limebi_corp.html",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver1010.Limedemo/Actionpads/apps/limebi/limebi_office.html",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver1010.Limedemo/Actionpads/apps/limebi/limebi_coworker.html",
+		"/C/Users/ssm/Desktop/Actionpads_newold/helpdesk.html",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver109.lime basic v4/Actionpads/apps/businessfunnel/app.js",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver109.lime basic v4/Actionpads/apps/businessfunnel/app.html",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver109.lime basic v4/Actionpads/application.html",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver109.lime basic v4/Actionpads/apps/businessfunnel/app.css",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver109.lime basic v4/Actionpads/apps/checklist/app.js",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver109.lime basic v4/Actionpads/apps/README.md",
+		"/C/Users/ssm/AppData/Roaming/Lundalogik/Lime/Databases/luserver109.lime basic v4/Actionpads/apps/template/app.js",
+		"/C/Users/ssm/Documents/GitHub/limebootstrap/apps/businessfunnel/app.html",
+		"/C/Users/ssm/Documents/GitHub/limebootstrap/apps/businessfunnel/app.js",
+		"/C/Users/ssm/Documents/GitHub/limebootstrap/index.html",
+		"/C/Users/ssm/Documents/GitHub/limebootstrap/business.html",
+		"/C/Users/ssm/Documents/GitHub/limebootstrap/helpdesk.html",
+		"/C/Users/ssm/Documents/GitHub/limebootstrap/apps/template/app.js",
+		"/C/Users/ssm/Documents/GitHub/limebootstrap/apps/checklist/app.html",
+		"/C/Users/ssm/Documents/GitHub/limebootstrap/apps/checklist/app.js",
+		"/C/Users/ssm/Documents/GitHub/limebootstrap/system/js/lbs.apploader.js",
+		"/C/Users/ssm/Documents/GitHub/limebootstrap/.gitattributes",
+		"/C/Users/ssm/Documents/GitHub/limebootstrap/application.html",
+		"/C/Users/ssm/Documents/GitHub/limebootstrap/system/js/lbs.loader.js",
+		"/C/Users/ssm/Documents/GitHub/limebootstrap/system/css/lime.css"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 309.0,
+		"where_history":
+		[
+			"<open files>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"fa.dasg",
+			"status",
+			"frx",
+			"blob",
+			"active",
+			"OleObjectBlob",
+			"info-links",
+			"Icon",
+			"fa",
+			"ttt",
+			"data",
+			"angle",
+			"expandable",
+			"expand'",
+			"fa-",
+			"fa",
+			"expandable",
+			"expandble",
+			"expand",
+			"visible",
+			"parent",
+			"float",
+			"btn",
+			"th",
+			"table-striped",
+			"table-condensed",
+			"1",
+			"maxAll",
+			")))\n",
+			"<",
+			"nav-header",
+			"ActionPad_Company",
+			"<",
+			"icon-",
+			"darkgrey",
+			"canBeUnchecked",
+			"data"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"td",
+			"menu-header",
+			"fa-"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"inde",
+				"index.html"
+			],
+			[
+				"applo",
+				"system\\js\\lbs.apploader.js"
+			],
+			[
+				"lbs",
+				"system\\js\\lbs.loader.js"
+			],
+			[
+				"lim",
+				"system\\css\\lime.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 168.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
