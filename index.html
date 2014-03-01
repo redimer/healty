@@ -31,8 +31,7 @@
  	<!-- background image-->
   	<div id="bg">
   		
-	</div>
-  
+	</div> 
 
     <div id="wrapper">
 
@@ -66,9 +65,8 @@
           	</li>
               	
 
+          	<span id="popoverData" data-html="true" data-content="<div>This  your div content</div>"  rel="popover" data-container="body" data-placement="right" data-original-title="Din vecka" data-trigger="hover">
 
-
-          	<span id="popoverData" data-content="Här kan man visa mer info om allt som denna användare har loggat..." rel="popover" data-container="body" data-placement="right" data-original-title="Din vecka" data-trigger="hover">
           	<li class="menu-item-profile">
           	<p class="donut-text">Totalt andel avklarat:</p>
 	             <div id="donut-slider1" class="donut-slider">		  		
@@ -110,19 +108,6 @@
                   </div>
                 </a>
               </li>
-
-            
-            
-            
-            <!-- <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-caret-square-o-down"></i> Dropdown <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Dropdown Item</a></li>
-                <li><a href="#">Another Item</a></li>
-                <li><a href="#">Third Item</a></li>
-                <li><a href="#">Last Item</a></li>
-              </ul>
-            </li> -->
             
           </ul>
 
@@ -154,80 +139,152 @@
          
         </div>
 
- 		<div class="row">
-          <div class="col-lg-12">
-          	<div class="log-activity text-center">
-          		<a href="#" class="btn btn-xlarge btn-success"><span class="fa fa-check"></span> Logga aktivitet</a>
-          		          		           		
-          	</div>
-          </div>         
-        </div>
-        
+
         <div class="row">
         	<div class="col-lg-12">
-         	<div class="activity-list">
-          			
+         		<div class="activity-list">
 
+			        <div class="col-lg-12" style="padding-left:0px;">
+				        <div class="log-activity-form">
+				        <h3>Vasaloppet<h3>
+							<div class="form-activity">
+								<select class="form-control" placeholder="Välj aktivitet">
+								    <option value="one">Välj aktivitet</option>
+								    <option value="two">Löpning</option>
+								    <option value="three">Gång</option>
+								    <option value="four">Rodd</option>
+								    <option value="five">Simning</option>
+								</select>
+							</div>				
 
-	         <div class="col-lg-12" style="padding-left:0px;">
+							<div class="input-group input-group">
+							  <span class="input-group-addon">km</span>
+							  <input class="form-control numeric" type="number" placeholder="Distans du utfört i km">
+							</div>
+						</div>
 
-		        <div class="activity-panel panel panel-primary " width="50%">
-		            
-		             <div class="panel-heading">
-		                <h3 class="panel-title"><i class="fa fa-road"></i> Senaste loggade aktiviteter</h3>
-		             </div>
-		             
-		             <div class="panel-body">
-		                <div class="list-group">
-		                  
-		                 
-		                  <div class="list-group-item">
-			                 <img src="img/ssm.png"  alt="pencil" class="img-circle">
-		                 	 &nbsp;
-		                   <span>Johan Kristensson</span>
-		                    <span class="pull-right">17km</span> 
-		                  </div>                  
-		                  
+						<div class="activity-log-btn">		
+							<button id="save-activity-btn" class="btn btn-success btn-small"><i class="icon-ok"></i> Spara</button>
+							<button id="cancel-activity-btn" class="btn btn-danger btn-small"><i class="icon-remove"></i> Avbryt</button>
+						</div>
+					</div>
 
-		                  <div class="list-group-item">
-			                 <img src="img/jkr.png"  alt="pencil" class="img-circle">
-		                 	 &nbsp;
-		                   <span>Johan Kristensson</span>
-		                    <span class="pull-right">7.4km</span> 
-		                  </div> 
-		                  
-		                  <div class="list-group-item">
-			                 <img src="img/ahe.png"  alt="pencil" class="img-circle">
-		                 	 &nbsp;
-		                   <span>Andreas Helgegren</span>
-		                    <span class="pull-right">22km</span> 
-		                  </div>                 
-		                                  
-		                </div>
-		               
-		           	</div>          
-		           
-		      	</div>
-			</div>
+          		</div>
 
+          		
 
-
-
-          	</div>
-
-          	<div class="activity-link  text-center">	         			
-          		<a href="#" class="show-activites-up"><i class="fa fa-chevron-down"></i> Visa aktiviteter</a>
-          	</div>
-
-		 	</div> 
-
+		          
+			</div> 
         </div>
+
+        <div class="row">
+        	<div class="col-lg-12">
+        	<div class="log-activity text-center">
+          			<button id = "log-activity" class="btn btn-xlarge btn-success" type="submit"><span class="fa fa-chevron-down"></span> Logga aktivitet</button>
+          		</div>
+			</div> 
+        </div>
+           
+      </div><!-- /#page-wrapper -->
+
+    </div><!-- /#wrapper -->
+
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    <!-- Used to radomize  background-->
+     <script type="text/javascript">
+	    var images = ['back-run1.jpg', 'back-run2.jpg', 'back-run3.jpg'];   
+	    $('<img src="img/' + images[Math.floor(Math.random() * images.length)] + '">').appendTo('#bg');
+	   
+	
+	//Used to slide toglge down the activity log fields
+	$('#log-activity').click(function() {
+   	 	$('.activity-list').slideToggle('slow')
+	S});
+
+	// Popover used for profile data in the meni
+	//$('#popoverData').popover();
+	$('#popoverData').popover({ html : true});
+	
+	//Only numeric in form for km
+	$("numeric").numeric();
+
+	</script>
+
+
+	<%= link_to('Q', '#', :class => "popoverData", :title => "Quality", "data-content" => "#{some_content_object.html_safe}") %>
+
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+
+    <!-- Page Specific Plugins -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+    <script src="http://cdn.oesmith.co.uk/morris-0.4.3.min.js"></script>
+    <script src="js/morris/chart-data-morris.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/tablesorter/jquery.tablesorter.js"></script>
+    <script src="js/donutslider/donutslider.js"></script>
+    <script src="js/tablesorter/tables.js"></script>
+    <script src="js/numeric/jquery.numeric.js"></script>
+
+
+  </body>
+</html>
 
 
 
         <!--
+
+
+ <div class="activity-panel panel panel-primary " width="50%">
+				            
+				             <div class="panel-heading">
+				                <h3 class="panel-title"><i class="fa fa-road"></i> Senaste loggade aktiviteter</h3>
+				             </div>
+				             
+				             <div class="panel-body">
+				                <div class="list-group">
+
+				                  <div class="list-group-item">
+					                 <img src="img/ssm.png"  alt="pencil" class="img-circle">
+				                 	 &nbsp;
+				                   	<span>Johan Kristensson</span>
+				                    <span class="pull-right">17km</span> 
+				                  </div>    
+
+				                  <div class="list-group-item">
+					                 <img src="img/jkr.png"  alt="pencil" class="img-circle">
+				                 	 &nbsp;
+				                   	<span>Johan Kristensson</span>
+				                    <span class="pull-right">7.4km</span> 
+				                  </div> 
+				                  
+				                  <div class="list-group-item">
+					                 <img src="img/ahe.png"  alt="pencil" class="img-circle">
+				                 	 &nbsp;
+				                   	<span>Andreas Helgegren</span>
+				                    <span class="pull-right">22km</span> 
+				                  </div>                 
+				                                  
+				                </div>
+				           	</div>
+			      		</div>
+
+
+
+
+
         
-        
+             <!-- <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-caret-square-o-down"></i> Dropdown <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Dropdown Item</a></li>
+                <li><a href="#">Another Item</a></li>
+                <li><a href="#">Third Item</a></li>
+                <li><a href="#">Last Item</a></li>
+              </ul>
+            </li> -->
 
 
         
@@ -372,43 +429,3 @@
               </div>
             </div>
           </div> -->
-          
-      </div><!-- /#page-wrapper -->
-
-    </div><!-- /#wrapper -->
-
-    <!-- JavaScript -->
-    <script src="js/jquery-1.10.2.js"></script>
-    <script src="js/bootstrap.js"></script>
-
-    <!-- Used to radomize  background-->
-     <script type="text/javascript">
-	    var images = ['back-run1.jpg', 'back-run2.jpg', 'back-run3.jpg'];   
-	    $('<img src="img/' + images[Math.floor(Math.random() * images.length)] + '">').appendTo('#bg');
-	   
-	$('.show-activites-up').click(function() {
-   	 	$('.activity-list').slideToggle('slow')
-    	$("i",this).toggleClass("fa fa-chevron-up fa fa-chevron-down");   
-	S});
-
-	$('#popoverData').popover();
-
-	</script>
-
-
-
-
-    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
-
-    <!-- Page Specific Plugins -->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
-    <script src="http://cdn.oesmith.co.uk/morris-0.4.3.min.js"></script>
-    <script src="js/morris/chart-data-morris.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/tablesorter/jquery.tablesorter.js"></script>
-    <script src="js/donutslider/donutslider.js"></script>
-    <script src="js/tablesorter/tables.js"></script>
-
-
-  </body>
-</html>

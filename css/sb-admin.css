@@ -18,7 +18,7 @@ body {
 h1, h2, h3, a{
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-
+  color: white;c
 }
 
 a:hover{
@@ -353,12 +353,12 @@ a{
 }
 
 .btn-xlarge {
-    padding: 18px 28px;
-    font-size: 22px; //change this to your desired size
+    padding: 15px 24px;
+    font-size: 18px; //change this to your desired size
     line-height: normal;
-    -webkit-border-radius: 8px;
-       -moz-border-radius: 8px;
-            border-radius: 8px;
+    -webkit-border-radius: 6px;
+       -moz-border-radius: 6px;
+            border-radius: 6px;
 }
 
 .show-activites-up{
@@ -375,7 +375,7 @@ a{
   
 }
 
-.activity-link{
+.log-activity{
   border-bottom: 1px solid rgba(255,255,255, 0.6);
   padding-top: 20px;
   padding-bottom: 30px;
@@ -388,3 +388,20 @@ a{
   color: white;
 }
 
+
+.form-activity{
+
+  margin-bottom:10px;
+}
+
+.activity-log-btn{
+  text-align: center;
+}
+
+#save-activity-btn{
+    margin:10 10 10 10;
+}
+
+#cancel-activity-btn{
+    margin: 10px;
+}
